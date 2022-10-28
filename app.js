@@ -9,7 +9,7 @@ app.use(express.static("public"))
 app.use(bodyParser.urlencoded({extended : true}));
 app.set('view engine','ejs')
 
-mongoose.connect("mongodb+srv://note-app-oct-2022:QJwOOuGzavU5OjPP@cluster0.fsiyxoa.mongodb.net/todolist",{useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})
+mongoose.connect("mongodb+srv://note-app-oct-2022:QJwOOuGzavU5OjPP@cluster0.fsiyxoa.mongodb.net/todolist")
 
 const ItemSchema = {
     name:"String"
