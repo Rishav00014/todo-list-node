@@ -73,9 +73,6 @@ app.get("/:name",(req,res)=>{
     })
 })
 
-app.get("about",(req,res)=>{
-    res.render("about")
-})
 app.post("/",function(req,res){
     const itemName=req.body.listItem;
     const listName =req.body.list;
