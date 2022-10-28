@@ -8,9 +8,6 @@
   },
   "author": "rishav",
   "license": "ISC",
-  "engines": {
-    "node": "16.x"
-  },
   "dependencies": {
     "body-parser": "^1.20.1",
     "ejs": "^3.1.8",

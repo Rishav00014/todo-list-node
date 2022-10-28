@@ -1,7 +1,7 @@
 const express = require("express")
 const bodyParser = require("body-parser");
 const mongoose =require("mongoose")
-const _  =require("lodash")
+const _ =require("lodash")
 
 
 const app = new  express()
@@ -123,11 +123,6 @@ app.post("/delete",(req,res)=>{
 })
 
 
-let port =process.env.PORT;
-if(port==null||port==""){
-    port = 3000;
-}
-
-app.listen(port,()=>{
-    console.log("Server is started");
+app.listen(process.env.PORT||3000,()=>{
+    console.log("Hello rishav i am working")
 })
